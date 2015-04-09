@@ -1,0 +1,241 @@
+/**
+ * @version		1.3
+ * @package		SimpleTabs
+ * @author    Fotis Evangelou - http://nuevvo.com/labs/simpletabs
+ * @copyright	Copyright (c) 2009-2011 Fotis Evangelou / Nuevvo Webware Ltd. All rights reserved.
+ * @license		GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+ */
+@media screen and (min-width: 768px) { 
+div.simpleTabs { 
+	padding:10px; 
+}
+ul.simpleTabsNavigation { 
+	margin:0 10px; 
+	padding:0; 
+	text-align:left; 
+}
+ul.simpleTabsNavigation li { 
+	position: relative;
+	background:none;
+	list-style:none; 
+	display:inline-block; 
+	margin:0; 
+	padding:0; 
+}
+ul.simpleTabsNavigation li a { 
+	display: inline-block;
+	margin-right: 24px;
+	background:none;
+	width: 115px;
+	height: 130px;
+	opacity: 0.5;
+	font-size:14px; 
+	text-decoration:none; 
+	font-family:Georgia, "Times New Roman", Times, serif; 
+}
+
+ul.simpleTabsNavigation li a img {
+	width: 100%;
+	height: 100%;
+	background:none;
+}
+ul.simpleTabsNavigation li a:hover { 
+	opacity: 1;
+}
+ul.simpleTabsNavigation li a.current { 
+	opacity: 1;
+	background:none; 
+	color:#222; 
+	solid #fff; 
+}
+div.simpleTabsContent { 
+	overflow: hidden;
+	margin-top:60px; 
+	display:none; 
+}
+div.simpleTabsContent.currentTab { 
+	display:block; 
+}
+.qsection {
+	float: left;
+	width: 270px;
+	height: 100px;
+	margin-bottom: 90px;
+	margin-left: 50px;
+}
+.qsection.e1 {
+	float: left;
+	width: 260px;
+	margin-bottom: 90px;
+	margin-left: 40px;
+}
+.qsection.be1 {
+	float: left;
+	width: 260px;
+	margin-bottom: 90px;
+	margin-left: 170px;
+}
+.qtitle {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 25px;
+}
+.qmain {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 25px;
+	margin-top: 30px;
+
+}
+.qmain a {
+	color: #00c6dd;
+	text-decoration: none;
+	opacity: 1
+}
+.qmain a:hover {
+	opacity: 0.9;
+}
+li span.edit_name {
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	width: 82%;
+	text-align: center;
+	font-size: 12px;
+	top: 95px;
+	background-color: rgba(0,0,0,.5);
+}
+li span.edit_name2 {
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	width: 67%;
+	text-align: center;
+	font-size: 12px;
+	top: 95px;
+	left: 55px;
+	background-color: rgba(0,0,0,.6);
+}
+}
+
+
+
+
+@media screen and (max-width: 767px) { 
+div.simpleTabs { 
+	padding:10px; 
+}
+ul.simpleTabsNavigation { 
+	width: 282px;
+	margin:0 auto; 
+	padding:0; 
+	text-align:left; 
+}
+ul.simpleTabsNavigation li { 
+	position: relative;
+	background:none;
+	list-style:none; 
+	display:inline-block; 
+	margin:0; 
+	padding:0; 
+}
+ul.simpleTabsNavigation li a { 
+	display: inline-block;
+	margin-right: 10px;
+	background:none;
+	width: 80px;
+	height: 90px;
+	opacity: 0.5;
+	font-size:14px; 
+	text-decoration:none; 
+	font-family:Georgia, "Times New Roman", Times, serif; 
+}
+
+ul.simpleTabsNavigation li a img {
+	width: 100%;
+	height: 100%;
+	background:none;
+}
+ul.simpleTabsNavigation li a:hover { 
+	opacity: 1;
+}
+ul.simpleTabsNavigation li a.current { 
+	opacity: 1;
+	background:none; 
+	color:#222; 
+	solid #fff; 
+}
+div.simpleTabsContent { 
+	overflow: hidden;
+	margin-top:60px; 
+	display:none; 
+}
+div.simpleTabsContent.currentTab { 
+	display:block; 
+}
+.qsection {
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 70px;
+	text-align: center
+}
+.qsection.e1 {
+	float: left;
+	width: 100%;
+	margin-bottom: 90px;
+	margin-left: 40px;
+	text-align: center
+}
+.qsection.be1 {
+	float: left;
+	width: 260px;
+	margin-bottom: 90px;
+	margin-left: 170px;
+}
+.qtitle {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 25px;
+}
+.qmain {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 25px;
+	margin-top: 30px;
+
+}
+.qmain a {
+	color: #00c6dd;
+	text-decoration: none;
+	opacity: 1
+}
+.qmain a:hover {
+	opacity: 0.9;
+}
+li span.edit_name {
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	width: 82%;
+	text-align: center;
+	font-size: 12px;
+	top: 65px;
+	background-color: rgba(0,0,0,.5);
+}
+li span.edit_name2 {
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	width: 67%;
+	text-align: center;
+	font-size: 12px;
+	top: 95px;
+	left: 55px;
+	background-color: rgba(0,0,0,.6);
+}
+}
