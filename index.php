@@ -12,15 +12,15 @@
 <meta property="og:description" content="一編輯室推薦年度十大專輯你沒聽過？歌手的獨家專訪也錯過了？還有小編們嘔心瀝血的歌單忘了收藏？KKBOX編輯室為你整理年度必看、必聽，快來看小編們老實說了什麼！" />
 <meta property="og:image" content="http://www.kkbox.com/tw/kma/2014/img/og_img2.png"/>
 <meta property="og:site_name" content="KKBOX 2014編輯室年度回顧"/>
-<link href="css/bootstrap.min.css?ver=1285232825" rel="stylesheet" type="text/css"/>
-<link href="/css/all.css?ver=1285232825" rel="stylesheet" type="text/css"/>
+<link href="css/css/bootstrap.min.css?ver=1285232825" rel="stylesheet" type="text/css"/>
+<link href="css/all.css?ver=1285232825" rel="stylesheet" type="text/css"/>
 <link href="//a.kfs.io/web7/css/font-awesome.min.css?ver=1285232825" rel="stylesheet" type="text/css"/>
 <link href="//a.kfs.io/vendor/sweet-alert-0.3.3/sweet-alert.css?ver=1285232825" rel="stylesheet" type="text/css"/>
-<link href="css/style.css?ver=1285232825" rel="stylesheet" type="text/css"/>
-<link href="css/style_common.css?ver=1285232825" rel="stylesheet" type="text/css"/>
-<link href="css/style1.css?ver=1285232825" rel="stylesheet" type="text/css"/>
-<link href="css/simpletabs.css?ver=1285232825" rel="stylesheet" type="text/css"/>
-<link href="css/reveal.css?ver=1285232825" rel="stylesheet" type="text/css"/>
+<link href="css/css/style.css?ver=1285232825" rel="stylesheet" type="text/css"/>
+<link href="css/css/style_common.css?ver=1285232825" rel="stylesheet" type="text/css"/>
+<link href="css/css/style1.css?ver=1285232825" rel="stylesheet" type="text/css"/>
+<link href="css/css/simpletabs.css?ver=1285232825" rel="stylesheet" type="text/css"/>
+<link href="css/css/reveal.css?ver=1285232825" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript">
 <!--
